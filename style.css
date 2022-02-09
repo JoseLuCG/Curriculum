@@ -1,0 +1,36 @@
+body {
+    font-family: Calibri;
+    display: flex;
+    justify-content: center;
+    background: rgb(58, 58, 58);
+}
+.wrapper {
+    background: white;
+    width: 60%;
+    height: 80vh;
+
+}
+
+span {
+
+    color: rgb(247, 113, 3);
+}
+
+h1 {
+    color: rgb(70, 73, 204);
+    background: grey;
+
+}
+
+ul {
+    font-weight: bold;
+}
+
+.Contact {
+    color: rgb(17, 0, 255);
+}
+
+.Datos {
+    color: rgb(172, 157, 157);
+    font-size: large;
+}
