@@ -19,6 +19,8 @@ span {
 h1 {
     color: rgb(70, 73, 204);
     background: grey;
+    margin: 15px;
+    border: 2px solid black;
 
 }
 
