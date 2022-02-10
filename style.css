@@ -21,8 +21,8 @@ h1 {
     background: grey;
     margin: 15px;
     border: 2px solid black;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
-
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    border-radius: 5px;
 }
 
 ul {
