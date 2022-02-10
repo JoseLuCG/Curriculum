@@ -40,4 +40,9 @@ ul {
 
 .DatosContacto {
     background-color: aqua;
+    justify-content: left;
+
+}
+.Dpersonales {
+    display: inline;
 }
