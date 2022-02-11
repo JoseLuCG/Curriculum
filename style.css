@@ -42,17 +42,20 @@ ul {
     background-color: aqua;
     width: 250px;
     border-radius: 10px;
-    border: solid rgb(0, 80, 73);
-    /*display: inline; 
-        Pregunta: ¿Por qué el background se hace pequeño y deja las letras fuera cuando pongo el display inline?*/
+    border: solid rgb(0, 80, 73); 
+}
+
+.Dpersonales {
+
+    display: inline;
 }
 
 .Imagen {
-   /* ->Preguntas:
-            # ¿Cómo cuadrar la imagen en la izquierda de los datos de contacto?
-   */ 
     width: 150px;
     height: 150px;
-    margin: 40px;
+    margin: 5px;
     display: inline;
+    border: solid black 2px;
+    border-radius: 10px;
+
 }
