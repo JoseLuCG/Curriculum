@@ -10,9 +10,6 @@ function main() {
     const titulo = document.querySelector("h1");
     titulo.addEventListener("pointerenter", imprimeHola);
     for (let item of elements){
-        console.log(item)
-    }
-    for (let item of elements){
         item.addEventListener("pointerenter", ()=>{console.log("Pop!")})
     }
 }
