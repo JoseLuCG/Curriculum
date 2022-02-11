@@ -6,7 +6,7 @@ body {
 }
 .wrapper {
     background: white;
-    width: 60%;
+    width: 50%;
     height: 100vh;
 
 }
@@ -40,9 +40,10 @@ ul {
 
 .DatosContacto {
     background-color: aqua;
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
-    border: solid rgb(0, 80, 73); 
+    border: solid rgb(0, 80, 73);
+    margin: 20px; 
 }
 
 .Dpersonales {
@@ -51,13 +52,13 @@ ul {
 }
 
 .Imagen {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     margin: 20px;
     display: inline;
     border: solid black 2px;
     border-radius: 10px;
     float: right;
     position: relative;
-    bottom: 180px;
+    bottom: 160px;
 }
