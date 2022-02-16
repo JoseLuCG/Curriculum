@@ -6,6 +6,14 @@ h1 {
     display: flex;
     justify-content: center;
 }
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
 #navContacto {
     display: flex;
     justify-content: space-evenly;
@@ -26,11 +34,11 @@ section {
 }
 .secArticle {
     background-color: snow;
-    margin: 5px;
     border-radius: 5px;
 }
 
 article * {
-    padding: 10px;
     background-color: grey;
+    margin: 3px;
 }
+
