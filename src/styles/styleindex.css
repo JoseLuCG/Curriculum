@@ -8,8 +8,29 @@ h1 {
 }
 #navContacto {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: aquamarine;
     border: solid rgb(20, 110, 161);
     border-radius: 20px;
+    padding: 0px;
+}
+.Bcontact {
+    padding: 15px;
+    padding-inline: 200px;
+}
+main {
+    display: flex;
+}
+section {
+    flex-direction: column;
+}
+.secArticle {
+    background-color: snow;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+article * {
+    padding: 10px;
+    background-color: grey;
 }
