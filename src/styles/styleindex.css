@@ -6,7 +6,10 @@ h1 {
     display: flex;
     justify-content: center;
 }
-nav {
+#navContacto {
     display: flex;
     justify-content: center;
+    background-color: aquamarine;
+    border: solid rgb(20, 110, 161);
+    border-radius: 20px;
 }
