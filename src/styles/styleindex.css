@@ -40,5 +40,11 @@ section {
 article {
     background-color: grey;
     margin: 3px;
+    display: flex;
+    flex-direction: column;
 }
 
+.ButNoticia {
+     text-align: right;
+     align-self: flex-end;
+}
