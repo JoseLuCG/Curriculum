@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(79, 216, 216);
+    background-image: url(https://fondosmil.com/fondo/36863.jpg);
+
 }
 
 h1 {
@@ -24,13 +25,12 @@ p {
 }
 .Bcontact {
     padding: 15px;
-    padding-inline: 200px;
+    padding-inline: 100px;
+    background-color: #cbffc0;
 }
 main {
     display: flex;
-}
-section {
-    flex-direction: column;
+ 
 }
 .secArticle {
     background-color: snow;
