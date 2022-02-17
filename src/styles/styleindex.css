@@ -1,8 +1,6 @@
 body {
     background-image: url(https://fondosmil.com/fondo/36863.jpg);
-
 }
-
 h1 {
     display: flex;
     justify-content: center;
@@ -25,7 +23,7 @@ p {
 }
 .Bcontact {
     padding: 15px;
-    padding-inline: 100px;
+    padding-inline: 50px;
     background-color: #cbffc0;
 }
 main {
