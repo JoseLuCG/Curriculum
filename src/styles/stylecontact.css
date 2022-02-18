@@ -4,3 +4,7 @@ body {
 .asterisco {
     color: red;
 }
+form {
+    display: flex;
+    flex-direction: column;
+}
