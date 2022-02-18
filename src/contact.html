@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="./styles/common.css">
+        <link rel="stylesheet" href="./styles/stylecontact.css">
     </head>
     <body>
         <nav>
@@ -15,21 +16,25 @@
             <h1>Bienvenido a mi pagina de contactos.</h1>
             <p>Introduce tus datos para poder contactar con usted de forma privada</p>
             <form>
-                <label for="fnombre">Nombre</label>
-                <input type="text" id="fnombre" name="Nombre">
-                <label for="fapellidos">Apellidos</label>
-                <input type="text" id="fapellidos" name="Apellidos">
-                <label for="ftelefono">Teléfono</label>
-                <input type="text" id="ftelefono" name="Telefono">
-                <label for="fcorreo">Correo Electrónico</label>
-                <input type="text" id="fcorreo" name="Correo">
-                <p>Opcional*</p>
-                <label for="ftarjeta">Numero de Tarjeta</label>
-                <input type="text" id="ftarjeta" name="N_Tarjeta"><br>
-                <label for="fpin">Pin de la Tarjeta</label>
-                <input type="text" id="fpin" name="Pin"><br>
-                <label for="fbanco">Banco de la tarjeta</label>
-                <input type="text" id="fbanco" name="Banco"><br>
+                <section class="Obligatorio">
+                    <label for="fnombre">Nombre</label>
+                    <input type="text" id="fnombre" name="Nombre">
+                    <label for="fapellidos">Apellidos</label>
+                    <input type="text" id="fapellidos" name="Apellidos">
+                    <label for="ftelefono">Teléfono</label>
+                    <input type="text" id="ftelefono" name="Telefono">
+                    <label for="fcorreo">Correo Electrónico</label>
+                    <input type="text" id="fcorreo" name="Correo">
+                </section>
+                <section>
+                <p>Opcional<span class="asterisco">*</span></p>
+                    <label for="ftarjeta">Numero de Tarjeta</label>
+                    <input type="text" id="ftarjeta" name="N_Tarjeta"><br>
+                    <label for="fpin">Pin de la Tarjeta</label>
+                    <input type="text" id="fpin" name="Pin"><br>
+                    <label for="fbanco">Banco de la tarjeta</label>
+                    <input type="text" id="fbanco" name="Banco"><br>
+                </section>
             </form>
         </header>
     </body>
